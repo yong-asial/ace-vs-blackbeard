@@ -259,3 +259,28 @@ input:checked + .slider::before {
   font-size: 30px;
   margin-right: 5px;
 }
+
+/* Media Screen */
+@media screen and (max-width: 500px) {
+  .about-container {
+    flex-direction: column; 
+  }
+
+  .image-container {
+    margin-top: 10px;
+  }
+
+  nav {
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 90vw;
+  }
+
+  .toggle-text {
+    position: relative;
+    top: -4px;
+    right: 5px;
+  }
+
+}
